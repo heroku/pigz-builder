@@ -3,7 +3,7 @@
 workspace_dir=$1
 output_dir=$2
 
-git clone git@github.com:nickelaway/pigz.git
+git clone https://github.com/madler/pigz.git 
 cd pigz
 make
 
